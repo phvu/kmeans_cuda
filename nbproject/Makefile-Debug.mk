@@ -57,11 +57,11 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/kmeanscuda
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/kmeans_cuda
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/kmeanscuda: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/kmeans_cuda: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/kmeanscuda ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/kmeans_cuda ${OBJECTFILES} ${LDLIBSOPTIONS}
 
 ${OBJECTDIR}/kMeansCuda.o: kMeansCuda.cu 
 	${MKDIR} -p ${OBJECTDIR}
@@ -77,7 +77,7 @@ ${OBJECTDIR}/main.o: main.cpp
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/kmeanscuda
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/kmeans_cuda
 
 # Subprojects
 .clean-subprojects:

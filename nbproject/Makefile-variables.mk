@@ -9,16 +9,16 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=CUDA-Linux-x86
 CND_ARTIFACT_DIR_Debug=dist/Debug/CUDA-Linux-x86
-CND_ARTIFACT_NAME_Debug=kmeanscuda
-CND_ARTIFACT_PATH_Debug=dist/Debug/CUDA-Linux-x86/kmeanscuda
+CND_ARTIFACT_NAME_Debug=kmeans_cuda
+CND_ARTIFACT_PATH_Debug=dist/Debug/CUDA-Linux-x86/kmeans_cuda
 CND_PACKAGE_DIR_Debug=dist/Debug/CUDA-Linux-x86/package
 CND_PACKAGE_NAME_Debug=kmeanscuda.tar
 CND_PACKAGE_PATH_Debug=dist/Debug/CUDA-Linux-x86/package/kmeanscuda.tar
 # Release configuration
 CND_PLATFORM_Release=CUDA-Linux-x86
 CND_ARTIFACT_DIR_Release=dist/Release/CUDA-Linux-x86
-CND_ARTIFACT_NAME_Release=kmeanscuda
-CND_ARTIFACT_PATH_Release=dist/Release/CUDA-Linux-x86/kmeanscuda
+CND_ARTIFACT_NAME_Release=kmeans_cuda
+CND_ARTIFACT_PATH_Release=dist/Release/CUDA-Linux-x86/kmeans_cuda
 CND_PACKAGE_DIR_Release=dist/Release/CUDA-Linux-x86/package
 CND_PACKAGE_NAME_Release=kmeanscuda.tar
 CND_PACKAGE_PATH_Release=dist/Release/CUDA-Linux-x86/package/kmeanscuda.tar

@@ -13,8 +13,8 @@ CND_BUILDDIR=build
 CND_DLIB_EXT=so
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/kmeanscuda
-OUTPUT_BASENAME=kmeanscuda
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/kmeans_cuda
+OUTPUT_BASENAME=kmeans_cuda
 PACKAGE_TOP_DIR=kmeanscuda/
 
 # Functions

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=kMeansCuda
+PROJECTNAME=kmeans_cuda
 
 # Active Configuration
 DEFAULTCONF=Debug
